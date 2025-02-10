@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ℌ</title>
+</head>
+
+<body>
+    <div id="clockAndDate">
+        <form id="search-form">
+            <input id="search" type="text" placeholder="Write keyword you want to search"></p>
+        </form>
+        <form id="url-form">
+            <div id="url-input-box">
+                <span id="https">https://</span>
+                <input id="search_url" type="text" placeholder="site name, domain(.com, .org, etc)">
+            </div>
+        </form>
+        <h2 id="clock" style="font-size: 1000%;">00:00:00</h2>
+        <h3 id="date"></h3>
+    </div>
+    <form class="login-form hidden">
+        <div class="login-div">
+            <input required maxlength="15" type="name" placeholder="What is your name?" /></p>
+            <button class="hidden">Log In</button>
+        </div>
+    </form>
+    <h1 id="greetings" class="hidden"></h1>
+    <form id="todo-form">
+        <input type="text" placeholder="Write your To Do list" required>
+        <button class="hidden">Enter</button>
+    </form>
+    <ul id="todo-list">
+        <span id="ex" class="hidden">If you want to delete your TO DO LIST, Click the ❌.</span>
+    </ul>
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="quote">
+        <span></span></p>
+        <span></span>
+    </div>
+    <script src="js/quotes.js"></script>
+    <script src="js/greeting.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/search.js"></script>
+</body>
+
+</html>

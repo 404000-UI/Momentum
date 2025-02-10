@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* for clock */
+
+@font-face {
+    font-family: 'BagelFatOne-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_JAMO@1.0/BagelFatOne-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* for greetings */
+
+@font-face {
+    font-family: 'Shilla_CultureB-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/Shilla_CultureB-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* for quote */
+
+@font-face {
+    font-family: 'Ownglyph_StudyHard-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_StudyHard-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* for todo list */
+
+.hidden {
+    display: none;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 80%;
+}
+
+form {
+    text-align: center;
+    width: auto;
+    height: auto;
+}
+
+input {
+    font-family: "yg-jalnan";
+    font-size: 100%;
+    width: 300px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+}
+
+input::placeholder {
+    text-align: center;
+    font-size: 100%;
+    font-family: "yg-jalnan";
+    color: black;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+}
+
+#quote {
+    font-family: 'Shilla_CultureB-Bold';
+    width: 99%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+
+}
+
+#clockAndDate {
+    font-family: "yg-jalnan";
+    text-align: center;
+}
+
+#clock {
+    margin-top: 1%;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+}
+
+#date {
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+#greetings {
+    font-family: 'BagelFatOne-Regular';
+    font-size: xx-large;
+    text-align: center;
+}
+
+#todo-list {
+    text-align: center;
+    list-style-type: none;
+}
+
+ul#todo-list span#ex {
+    font-size: larger;
+    font-family: 'Ownglyph_StudyHard-Rg';
+    text-align: center;
+}
+
+#todo-list li {
+    font-size: x-large;
+    font-family: 'Ownglyph_StudyHard-Rg';
+    text-align: center;
+}
+
+#search_url {
+    text-align: left;
+    border-bottom: none;
+}
+
+#url-input-box {
+    margin: auto;
+    width: 400px;
+    height: 50px;
+    border-bottom: 2px solid black;
+    border-width: auto;
+}
